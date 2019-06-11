@@ -71,6 +71,47 @@ p {
     margin: 0 auto;
 }
 
+.top-header-container nav {
+    height: 100px;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-header-container nav{
+    height: 100px;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jumbo-about {
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.sectionAbout {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-plan {
+    padding-top: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
